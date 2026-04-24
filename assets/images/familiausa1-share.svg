@@ -1,0 +1,17 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" rx="32" fill="#F6F8FC"/>
+  <rect x="48" y="48" width="1104" height="534" rx="28" fill="#FFFFFF" stroke="#D8E0EE" stroke-width="2"/>
+  <rect x="88" y="92" width="232" height="42" rx="21" fill="#FFF1E8"/>
+  <text x="112" y="119" fill="#C4571F" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Blog oficial do FamiliaUSA1</text>
+  <text x="88" y="226" fill="#14213D" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="800">Vida real de brasileiros</text>
+  <text x="88" y="306" fill="#14213D" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="800">nos Estados Unidos</text>
+  <text x="88" y="382" fill="#5C6B85" font-family="Arial, Helvetica, sans-serif" font-size="30">Guias, alertas e conteúdos úteis para morar nos EUA</text>
+  <rect x="88" y="448" width="286" height="64" rx="18" fill="#14213D"/>
+  <text x="132" y="489" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">familiausa1.com</text>
+  <circle cx="963" cy="234" r="104" fill="#EDF2FB"/>
+  <circle cx="1017" cy="290" r="76" fill="#FFF1E8"/>
+  <circle cx="913" cy="334" r="58" fill="#DDE7FA"/>
+  <rect x="800" y="416" width="264" height="18" rx="9" fill="#E2E8F5"/>
+  <rect x="800" y="450" width="210" height="18" rx="9" fill="#E2E8F5"/>
+  <rect x="800" y="484" width="244" height="18" rx="9" fill="#E2E8F5"/>
+</svg>

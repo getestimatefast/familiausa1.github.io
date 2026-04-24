@@ -1,0 +1,20 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="675" fill="#F8FAFC"/>
+  <rect x="56" y="56" width="1088" height="563" rx="28" fill="white" stroke="#E2E8F0" stroke-width="2"/>
+  <rect x="96" y="96" width="186" height="40" rx="20" fill="#FFF3ED"/>
+  <text x="118" y="122" fill="#C2410C" font-family="Arial, sans-serif" font-size="22" font-weight="700">Alerta migratório</text>
+  <text x="96" y="218" fill="#111827" font-family="Arial, sans-serif" font-size="68" font-weight="800">Fraude migratória</text>
+  <text x="96" y="292" fill="#111827" font-family="Arial, sans-serif" font-size="68" font-weight="800">nos EUA: caso</text>
+  <text x="96" y="366" fill="#111827" font-family="Arial, sans-serif" font-size="68" font-weight="800">Legacy Imigra</text>
+  <text x="96" y="430" fill="#64748B" font-family="Arial, sans-serif" font-size="30">Brasileiros na Flórida, promessas de work permit e asilo,</text>
+  <text x="96" y="470" fill="#64748B" font-family="Arial, sans-serif" font-size="30">e o que você precisa verificar antes de confiar em um processo.</text>
+  <rect x="786" y="146" width="270" height="340" rx="22" fill="#EFF6FF"/>
+  <rect x="822" y="188" width="198" height="132" rx="18" fill="#111827"/>
+  <path d="M921 220L850 342H992L921 220Z" fill="#F97316"/>
+  <rect x="844" y="374" width="168" height="18" rx="9" fill="#CBD5E1"/>
+  <rect x="844" y="406" width="132" height="18" rx="9" fill="#CBD5E1"/>
+  <rect x="844" y="438" width="152" height="18" rx="9" fill="#CBD5E1"/>
+  <circle cx="220" cy="542" r="8" fill="#C2410C"/>
+  <circle cx="250" cy="542" r="8" fill="#F97316"/>
+  <circle cx="280" cy="542" r="8" fill="#1D4ED8"/>
+</svg>
