@@ -87,6 +87,44 @@
         </div>
       </section>
 
+      <section
+        class="container featured-video-section"
+        aria-labelledby="video-em-destaque"
+        data-youtube-video-id="Gt50g-13d68"
+        data-youtube-channel-url="https://www.youtube.com/@familiausa1">
+        <!--
+          Featured video config:
+          - CURRENT_FEATURED_VIDEO_ID = Gt50g-13d68
+          - To change the weekly video manually, update data-youtube-video-id
+            and the iframe src with the new YouTube video ID.
+          - Future automation option: create a small build/server step that reads
+            the latest upload from the channel via YouTube RSS or YouTube Data API
+            and replaces CURRENT_FEATURED_VIDEO_ID before publishing.
+          - Keep YouTube API keys outside client-side HTML. Use server/build env vars.
+        -->
+        <div class="featured-video-card">
+          <div class="featured-video-copy">
+            <div class="eyebrow">Família USA 1 no YouTube</div>
+            <h2 id="video-em-destaque">Vídeo em destaque da semana</h2>
+            <p>
+              Veja conteúdos reais sobre vida nos Estados Unidos, custo de vida,
+              imigração, trabalho e adaptação para brasileiros.
+            </p>
+            <a class="button primary" href="https://www.youtube.com/@familiausa1" target="_blank" rel="noopener">Ver canal no YouTube</a>
+          </div>
+
+          <div class="featured-video-frame">
+            <iframe
+              src="https://www.youtube-nocookie.com/embed/Gt50g-13d68?rel=0&modestbranding=1"
+              title="Vídeo em destaque do Família USA 1 sobre a realidade de viver nos EUA"
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </section>
+
       <section class="container editorial-lead" aria-labelledby="manchete-principal">
         <article class="main-story">
           <div class="story-kicker">Em destaque agora</div>
