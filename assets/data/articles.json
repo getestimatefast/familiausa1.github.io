@@ -1,0 +1,329 @@
+﻿{
+    "articles":  [
+                     {
+                         "title":  "Como funciona o crédito nos EUA para brasileiros",
+                         "description":  "Entenda como funciona o crédito nos EUA, score, cartão secured, histórico, aluguel, financiamento e erros comuns.",
+                         "category":  "Crédito nos EUA",
+                         "url":  "articles/como-funciona-o-credito-nos-eua.html",
+                         "date":  "2026-05-06",
+                         "modified":  "2026-05-06",
+                         "readTime":  "11 min de leitura"
+                     },
+                     {
+                         "title":  "É perigoso morar nos EUA? Veja a realidade",
+                         "description":  "É perigoso morar nos EUA? Veja segurança, violência, golpes, diferenças por cidade, escolas e cuidados para brasileiros.",
+                         "category":  "Segurança nos EUA",
+                         "url":  "articles/e-perigoso-morar-nos-eua.html",
+                         "date":  "2026-05-06",
+                         "modified":  "2026-05-06",
+                         "readTime":  "11 min de leitura"
+                     },
+                     {
+                         "title":  "Primeiros 30 dias nos EUA: checklist completo",
+                         "description":  "Checklist dos primeiros 30 dias nos EUA: moradia, telefone, banco, transporte, escola, documentos, trabalho e erros.",
+                         "category":  "Primeiros passos",
+                         "url":  "articles/primeiros-30-dias-nos-eua.html",
+                         "date":  "2026-05-06",
+                         "modified":  "2026-05-06",
+                         "readTime":  "11 min de leitura"
+                     },
+                     {
+                         "title":  "Quanto custa alugar casa nos EUA em 2026?",
+                         "description":  "Veja quanto custa alugar casa nos EUA em 2026, depósito, crédito, renda, contrato, golpes e dicas para brasileiros.",
+                         "category":  "Moradia nos EUA",
+                         "url":  "articles/quanto-custa-alugar-casa-nos-eua-2026.html",
+                         "date":  "2026-05-06",
+                         "modified":  "2026-05-06",
+                         "readTime":  "12 min de leitura"
+                     },
+                     {
+                         "title":  "Quanto ganha um brasileiro nos EUA em 2026?",
+                         "description":  "Veja quanto ganha um brasileiro nos EUA em 2026 por área, construção, cleaning, delivery, restaurantes e quanto sobra.",
+                         "category":  "Trabalho e renda",
+                         "url":  "articles/quanto-ganha-um-brasileiro-nos-eua-2026.html",
+                         "date":  "2026-05-06",
+                         "modified":  "2026-05-06",
+                         "readTime":  "12 min de leitura"
+                     },
+                     {
+                         "title":  "Custo de vida nos EUA 2026: guia atualizado",
+                         "description":  "Custo de vida nos EUA 2026: aluguel, mercado, energia, carro, seguro, saúde e orçamento para solteiro, casal e família.",
+                         "category":  "Custo de vida",
+                         "url":  "articles/custo-de-vida-nos-eua-2026-atualizado.html",
+                         "date":  "2026-05-01",
+                         "modified":  "2026-05-01",
+                         "readTime":  "13 min de leitura"
+                     },
+                     {
+                         "title":  "Documentos para imigrar para os EUA: checklist completo 2026",
+                         "description":  "Veja documentos para imigrar para os EUA, DS-160, entrevista do visto americano, tipos de visto e checklist de viagem.",
+                         "category":  "Imigração para brasileiros",
+                         "url":  "articles/documentos-para-imigrar-para-os-eua.html",
+                         "date":  "2026-05-01",
+                         "modified":  "2026-05-01",
+                         "readTime":  "11 min de leitura"
+                     },
+                     {
+                         "title":  "É fácil se legalizar nos Estados Unidos? Entenda a realidade em 2026",
+                         "description":  "É fácil se legalizar nos EUA? Veja caminhos reais, green card, asilo, trabalho, casamento, custos, prazos e erros comuns.",
+                         "category":  "Imigração e legalização",
+                         "url":  "articles/e-facil-se-legalizar-nos-eua.html",
+                         "date":  "2026-05-01",
+                         "modified":  "2026-05-01",
+                         "readTime":  "10 min de leitura"
+                     },
+                     {
+                         "title":  "Flórida x Massachusetts: qual o melhor estado para imigrante?",
+                         "description":  "Flórida x Massachusetts: veja custo de vida, trabalho, clima, impostos, comunidade brasileira e pontos positivos e negativos.",
+                         "category":  "Onde morar nos EUA",
+                         "url":  "articles/florida-vs-massachusetts-imigrantes.html",
+                         "date":  "2026-05-01",
+                         "modified":  "2026-05-01",
+                         "readTime":  "11 min de leitura"
+                     },
+                     {
+                         "title":  "Imigrar para os EUA depois dos 50 anos vale a pena?",
+                         "description":  "Veja desafios, vantagens, custos e realidade de imigrar para os EUA depois dos 50 anos. Guia realista para brasileiros.",
+                         "category":  "Vida real nos EUA",
+                         "url":  "articles/imigrar-para-os-eua-depois-dos-50-anos.html",
+                         "date":  "2026-05-01",
+                         "modified":  "2026-05-01",
+                         "readTime":  "10 min de leitura"
+                     },
+                     {
+                         "title":  "É possível se legalizar entrando pela fronteira dos EUA?",
+                         "description":  "Entenda se é possível se legalizar entrando pela fronteira dos EUA, os riscos, asilo, processo legal e mitos em 2026.",
+                         "category":  "Imigração e fronteira",
+                         "url":  "articles/legalizar-pela-fronteira-eua.html",
+                         "date":  "2026-05-01",
+                         "modified":  "2026-05-01",
+                         "readTime":  "9 min de leitura"
+                     },
+                     {
+                         "title":  "Por que imigrar para os EUA e não para outro país?",
+                         "description":  "Por que imigrar para os EUA? Veja pontos positivos, negativos, comparação com Canadá e Europa e dados oficiais de imigração.",
+                         "category":  "Morar fora",
+                         "url":  "articles/por-que-imigrar-para-os-eua.html",
+                         "date":  "2026-05-01",
+                         "modified":  "2026-05-01",
+                         "readTime":  "10 min de leitura"
+                     },
+                     {
+                         "title":  "Por que tantas pessoas entram nos EUA pela fronteira?",
+                         "description":  "Entenda por que tantas pessoas entram nos EUA pela fronteira, dados oficiais, políticas de Obama a 2026, asilo e impactos.",
+                         "category":  "Fronteira e imigração",
+                         "url":  "articles/por-que-pessoas-entram-nos-eua-pela-fronteira.html",
+                         "date":  "2026-05-01",
+                         "modified":  "2026-05-01",
+                         "readTime":  "12 min de leitura"
+                     },
+                     {
+                         "title":  "Quanto dinheiro preciso para ir para os EUA em 2026?",
+                         "description":  "Veja quanto dinheiro levar para os EUA em 2026, com visto, passagem, aluguel, depósito, mercado, transporte e reserva.",
+                         "category":  "Planejamento financeiro",
+                         "url":  "articles/quanto-dinheiro-preciso-para-ir-para-os-eua-2026.html",
+                         "date":  "2026-05-01",
+                         "modified":  "2026-05-01",
+                         "readTime":  "12 min de leitura"
+                     },
+                     {
+                         "title":  "Como conseguir trabalho nos EUA sendo brasileiro em 2026",
+                         "description":  "Guia realista sobre trabalho nos EUA para brasileiros: construção, cleaning, delivery, restaurantes, inglês e documentação.",
+                         "category":  "Trabalho nos EUA",
+                         "url":  "articles/trabalho-nos-eua-para-brasileiros-2026.html",
+                         "date":  "2026-05-01",
+                         "modified":  "2026-05-01",
+                         "readTime":  "12 min de leitura"
+                     },
+                     {
+                         "title":  "Vale a pena morar nos EUA em 2026?",
+                         "description":  "Vale a pena morar nos EUA em 2026? Veja prós, contras, custo de vida, trabalho, adaptação, saúde e realidade para brasileiros.",
+                         "category":  "Vida real nos EUA",
+                         "url":  "articles/vale-a-pena-morar-nos-eua-2026.html",
+                         "date":  "2026-05-01",
+                         "modified":  "2026-05-01",
+                         "readTime":  "12 min de leitura"
+                     },
+                     {
+                         "title":  "10 Coisas Que Você Precisa Saber Antes de Emigrar Para os EUA em 2026",
+                         "description":  "Pensando em emigrar para os EUA em 2026? Veja verdades sobre adaptação, trabalho, custo de vida, idioma e vida de imigrante.",
+                         "category":  "Imigração consciente",
+                         "url":  "articles/emigrar-para-os-eua-em-2026.html",
+                         "date":  "2026-04-28",
+                         "modified":  "2026-04-28",
+                         "readTime":  "11 min de leitura"
+                     },
+                     {
+                         "title":  "A Maior Dificuldade do Imigrante nos EUA em 2026 (E Quase Ninguém Fala Disso)",
+                         "description":  "Descubra a maior dificuldade do imigrante nos EUA em 2026: moradia, aluguel, custo de vida, cultura e trabalho na Flórida.",
+                         "category":  "Vida real nos EUA",
+                         "url":  "articles/maior-dificuldade-imigrante-eua.html",
+                         "date":  "2026-04-28",
+                         "modified":  "2026-04-28",
+                         "readTime":  "10 min de leitura"
+                     },
+                     {
+                         "title":  "Custo de vida na Flórida em 2026: quanto realmente sobra no final do mês?",
+                         "description":  "Veja o custo de vida na Flórida em 2026, gastos reais de uma família brasileira e quanto pode sobrar no fim do mês.",
+                         "category":  "Custo de vida",
+                         "url":  "articles/custo-de-vida-na-florida-2026-quanto-sobra.html",
+                         "date":  "2026-04-27",
+                         "modified":  "2026-04-27",
+                         "readTime":  "10 min de leitura"
+                     },
+                     {
+                         "title":  "O que pode mudar na imigra\u0026ccedil;\u0026atilde;o dos EUA em 2026?",
+                         "description":  "Entenda o que pode mudar na imigra\u0026ccedil;\u0026atilde;o dos EUA em 2026, com asilo, deporta\u0026ccedil;\u0026atilde;o, fiscaliza\u0026ccedil;\u0026atilde;o e poss\u0026iacute;veis impactos para brasileiros.",
+                         "category":  "Imigra\u0026ccedil;\u0026atilde;o EUA",
+                         "url":  "articles/o-que-pode-mudar-na-imigracao-dos-eua-em-2026.html",
+                         "date":  "2026-04-27",
+                         "modified":  "2026-04-27",
+                         "readTime":  "9 min de leitura"
+                     },
+                     {
+                         "title":  "Tiros em evento com Trump: o que aconteceu e o que se sabe até agora",
+                         "description":  "Veja o que se sabe sobre os tiros em evento com Trump em Washington, no jantar da White House Correspondents’ Association.",
+                         "category":  "Notícias dos EUA",
+                         "url":  "articles/tiros-evento-trump-white-house-correspondents-dinner-2026.html",
+                         "date":  "2026-04-26",
+                         "modified":  "2026-04-26",
+                         "readTime":  "6 min de leitura"
+                     },
+                     {
+                         "title":  "7 sinais de golpe na imigração dos EUA (e como evitar)",
+                         "description":  "Veja 7 sinais de golpe na imigração dos EUA e como brasileiros nos EUA podem evitar fraude migratória, work permit falso e falsa consultoria.",
+                         "category":  "Fraude imigração",
+                         "url":  "articles/7-sinais-de-golpe-na-imigracao-dos-eua.html",
+                         "date":  "2026-04-24",
+                         "modified":  "2026-04-24",
+                         "readTime":  "8 min de leitura"
+                     },
+                     {
+                         "title":  "Como alugar casa nos EUA sendo brasileiro (sem histórico de crédito)",
+                         "description":  "Veja como alugar casa nos EUA sendo brasileiro em 2026, mesmo sem crédito, com depósito maior, aluguel direto e cuidados contra golpes.",
+                         "category":  "Moradia nos EUA",
+                         "url":  "articles/como-alugar-casa-nos-eua-sendo-brasileiro-sem-historico-de-credito.html",
+                         "date":  "2026-04-24",
+                         "modified":  "2026-04-24",
+                         "readTime":  "8 min de leitura"
+                     },
+                     {
+                         "title":  "Como conseguir trabalho nos EUA sendo brasileiro (Guia 2026)",
+                         "description":  "Aprenda como conseguir trabalho nos EUA sendo brasileiro em 2026, com vagas comuns, indicação, inglês e faixa real de ganhos.",
+                         "category":  "Trabalho nos EUA",
+                         "url":  "articles/como-conseguir-trabalho-nos-eua-sendo-brasileiro-guia-2026.html",
+                         "date":  "2026-04-24",
+                         "modified":  "2026-04-24",
+                         "readTime":  "8 min de leitura"
+                     },
+                     {
+                         "title":  "Como saber se um advogado de imigração é confiável nos EUA",
+                         "description":  "Veja como saber se um advogado de imigração é confiável nos EUA e o que brasileiros nos EUA devem verificar antes de contratar ajuda legal.",
+                         "category":  "Advogado imigração",
+                         "url":  "articles/como-saber-se-um-advogado-de-imigracao-e-confiavel-nos-eua.html",
+                         "date":  "2026-04-24",
+                         "modified":  "2026-04-24",
+                         "readTime":  "9 min de leitura"
+                     },
+                     {
+                         "title":  "Como tirar carteira de motorista nos EUA (passo a passo)",
+                         "description":  "Veja como tirar carteira de motorista nos EUA em 2026, com manual, prova teórica, prova prática e documentos necessários.",
+                         "category":  "Documentos nos EUA",
+                         "url":  "articles/como-tirar-carteira-de-motorista-nos-eua-passo-a-passo.html",
+                         "date":  "2026-04-24",
+                         "modified":  "2026-04-24",
+                         "readTime":  "7 min de leitura"
+                     },
+                     {
+                         "title":  "Fraude migratória nos EUA na Flórida: brasileiros presos após esquema com work permit e asilo",
+                         "description":  "Entenda o caso de fraude migratória na Flórida envolvendo brasileiros, work permit, asilo e os alertas para evitar golpes nos EUA.",
+                         "category":  "Fraude migratória EUA",
+                         "url":  "articles/fraude-migratoria-eua-brasileiros-presos-florida.html",
+                         "date":  "2026-04-24",
+                         "modified":  "2026-04-24",
+                         "readTime":  "9 min de leitura"
+                     },
+                     {
+                         "title":  "Salário mínimo nos EUA: quanto dá para ganhar em 2026",
+                         "description":  "Entenda o salário mínimo nos EUA em 2026, o valor federal, os estados com piso maior e quanto isso pode render por mês.",
+                         "category":  "Custo de vida",
+                         "url":  "articles/salario-minimo-nos-eua-quanto-da-para-ganhar-em-2026.html",
+                         "date":  "2026-04-24",
+                         "modified":  "2026-04-24",
+                         "readTime":  "7 min de leitura"
+                     },
+                     {
+                         "title":  "Vale a pena morar nos EUA em 2026? A verdade sem filtro",
+                         "description":  "Entenda se vale a pena morar nos EUA em 2026, com uma visão honesta sobre salários, custo de vida, saudade e adaptação.",
+                         "category":  "Vida real nos EUA",
+                         "url":  "articles/vale-a-pena-morar-nos-eua-em-2026-a-verdade-sem-filtro.html",
+                         "date":  "2026-04-24",
+                         "modified":  "2026-04-24",
+                         "readTime":  "8 min de leitura"
+                     },
+                     {
+                         "title":  "Vale a pena pedir asilo nos EUA em 2026? A verdade sem filtro",
+                         "description":  "Entenda se vale a pena pedir asilo nos EUA em 2026, com explicação realista para brasileiros sobre regras, riscos, prazo e work permit.",
+                         "category":  "Asilo Estados Unidos",
+                         "url":  "articles/vale-a-pena-pedir-asilo-nos-eua-em-2026.html",
+                         "date":  "2026-04-24",
+                         "modified":  "2026-04-24",
+                         "readTime":  "10 min de leitura"
+                     },
+                     {
+                         "title":  "A verdade sobre morar nos EUA",
+                         "description":  "Entenda a verdade sobre morar nos EUA, com pontos reais sobre custo de vida, adaptação, saudade, trabalho, rotina e recomeço para brasileiros.",
+                         "category":  "Vida real nos EUA",
+                         "url":  "articles/a-verdade-sobre-morar-nos-eua.html",
+                         "date":  "2026-04-23",
+                         "modified":  "2026-04-24",
+                         "readTime":  "8 min de leitura"
+                     },
+                     {
+                         "title":  "Como escolher uma cidade para morar nos EUA",
+                         "description":  "Aprenda como escolher uma cidade para morar nos EUA com critérios sobre custo de vida, trabalho, escola, clima, transporte, saúde e rede de apoio.",
+                         "category":  "Planejamento",
+                         "url":  "articles/como-escolher-uma-cidade-para-morar-nos-eua.html",
+                         "date":  "2026-04-23",
+                         "modified":  "2026-04-24",
+                         "readTime":  "9 min de leitura"
+                     },
+                     {
+                         "title":  "Primeiros passos para quem chega nos EUA",
+                         "description":  "Guia de primeiros passos para quem chega nos EUA, com dicas sobre endereço, telefone, documentos, banco, escola, saúde, transporte e rotina.",
+                         "category":  "Recém-chegados",
+                         "url":  "articles/primeiros-passos-para-quem-chega-nos-eua.html",
+                         "date":  "2026-04-23",
+                         "modified":  "2026-04-24",
+                         "readTime":  "9 min de leitura"
+                     },
+                     {
+                         "title":  "Quanto custa viver nos EUA em 2026?",
+                         "description":  "Veja quanto custa viver nos EUA em 2026, com gastos de aluguel, mercado, transporte, saúde, seguro, escola e orçamento realista.",
+                         "category":  "Custo de vida",
+                         "url":  "articles/quanto-custa-viver-nos-eua.html",
+                         "date":  "2026-04-23",
+                         "modified":  "2026-04-24",
+                         "readTime":  "10 min de leitura"
+                     },
+                     {
+                         "title":  "5 erros que brasileiros cometem ao chegar nos EUA",
+                         "description":  "Veja 5 erros que brasileiros cometem ao chegar nos EUA e como evitar problemas com dinheiro, documentos, crédito, cidade, adaptação e planejamento.",
+                         "category":  "Erros para evitar",
+                         "url":  "articles/5-erros-que-brasileiros-cometem-ao-chegar-nos-eua.html",
+                         "date":  "2026-04-23",
+                         "modified":  "2026-04-23",
+                         "readTime":  "8 min de leitura"
+                     },
+                     {
+                         "title":  "Brasil x EUA: diferenças que pesam na rotina",
+                         "description":  "Entenda as diferenças entre Brasil e EUA que mais pesam na rotina, como tempo, trabalho, saúde, transporte, consumo, escola e adaptação.",
+                         "category":  "Vida real nos EUA",
+                         "url":  "articles/brasil-x-eua-diferencas-que-pesam-na-rotina.html",
+                         "date":  "2026-04-23",
+                         "modified":  "2026-04-23",
+                         "readTime":  "8 min de leitura"
+                     }
+                 ],
+    "generatedAt":  "2026-05-06"
+}
