@@ -1,6 +1,15 @@
 ﻿{
     "articles":  [
                      {
+                         "title":  "Cruzeiro ainda é seguro em 2026?",
+                         "description":  "Cruzeiro ainda é seguro em 2026? Veja riscos reais, norovírus, vírus respiratórios, protocolos e cuidados antes de embarcar.",
+                         "category":  "Viagem e saúde",
+                         "url":  "articles/cruzeiro-ainda-e-seguro-em-2026.html",
+                         "date":  "2026-05-07",
+                         "modified":  "2026-05-07",
+                         "readTime":  "8 min de leitura"
+                     },
+                     {
                          "title":  "Lula nos EUA: o que a reunião com Trump pode mudar para brasileiros",
                          "description":  "Lula nos EUA: entenda reunião com Trump, comércio, tarifas, minerais críticos, imigração, fronteira e impactos para brasileiros.",
                          "category":  "Relação Brasil-EUA",
@@ -8,6 +17,33 @@
                          "date":  "2026-05-07",
                          "modified":  "2026-05-07",
                          "readTime":  "10 min de leitura"
+                     },
+                     {
+                         "title":  "Novo vírus em cruzeiros? O que é verdade",
+                         "description":  "Novo vírus em cruzeiros? Entenda o caso do hantavírus no MV Hondius, o que é verdade, o risco real e como se proteger.",
+                         "category":  "Saúde em viagem",
+                         "url":  "articles/novo-virus-em-cruzeiros-o-que-e-verdade.html",
+                         "date":  "2026-05-07",
+                         "modified":  "2026-05-07",
+                         "readTime":  "9 min de leitura"
+                     },
+                     {
+                         "title":  "OMS monitora casos em navio: entenda o alerta",
+                         "description":  "OMS monitora casos em navio ligado a hantavírus. Entenda o que foi confirmado, risco real, medidas e próximos passos.",
+                         "category":  "OMS e saúde",
+                         "url":  "articles/oms-monitora-casos-em-navio.html",
+                         "date":  "2026-05-07",
+                         "modified":  "2026-05-07",
+                         "readTime":  "8 min de leitura"
+                     },
+                     {
+                         "title":  "O que fazer se ficar doente em um cruzeiro",
+                         "description":  "Ficou doente em cruzeiro? Veja o que fazer com febre, vômitos, diarreia, tosse, isolamento, centro médico e seguro.",
+                         "category":  "Saúde em cruzeiro",
+                         "url":  "articles/o-que-fazer-se-ficar-doente-em-cruzeiro.html",
+                         "date":  "2026-05-07",
+                         "modified":  "2026-05-07",
+                         "readTime":  "8 min de leitura"
                      },
                      {
                          "title":  "Como funciona o crédito nos EUA para brasileiros",
