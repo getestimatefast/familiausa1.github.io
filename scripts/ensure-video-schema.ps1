@@ -4,6 +4,7 @@ param(
 
 $ErrorActionPreference = "Stop"
 $youtubePattern = '(?:youtube(?:-nocookie)?\.com/embed/|youtube\.com/watch\?v=|youtu\.be/)([A-Za-z0-9_-]{11})'
+$fallbackTimeZone = "-04:00"
 
 function Get-UniqueYoutubeIds {
   param([string]$Html)
@@ -90,6 +91,26 @@ function Get-PostDate {
   return (Get-Date -Format "yyyy-MM-dd")
 }
 
+function ConvertTo-IsoUploadDate {
+  param([string]$Value)
+
+  if ([string]::IsNullOrWhiteSpace($Value)) {
+    return "$(Get-Date -Format "yyyy-MM-dd")T00:00:00$fallbackTimeZone"
+  }
+
+  $trimmed = $Value.Trim()
+
+  if ($trimmed -match '^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:Z|[+-]\d{2}:\d{2})$') {
+    return $trimmed
+  }
+
+  if ($trimmed -match '^(\d{4}-\d{2}-\d{2})') {
+    return "$($Matches[1])T00:00:00$fallbackTimeZone"
+  }
+
+  return "$(Get-Date -Format "yyyy-MM-dd")T00:00:00$fallbackTimeZone"
+}
+
 function Get-YoutubeUploadDate {
   param(
     [string]$VideoId,
@@ -100,13 +121,13 @@ function Get-YoutubeUploadDate {
     $response = Invoke-WebRequest -Uri "https://www.youtube.com/watch?v=$VideoId" -UseBasicParsing -TimeoutSec 20
     $match = [regex]::Match($response.Content, '"uploadDate":"(\d{4}-\d{2}-\d{2})')
     if ($match.Success) {
-      return $match.Groups[1].Value
+      return ConvertTo-IsoUploadDate -Value $match.Groups[1].Value
     }
   } catch {
     # Build-time fallback: keep the site valid even if YouTube is unavailable.
   }
 
-  return $FallbackDate
+  return ConvertTo-IsoUploadDate -Value $FallbackDate
 }
 
 function Get-EmbedUrl {
@@ -134,8 +155,9 @@ function Add-MissingVideoFields {
   $canonicalEmbedUrl = "https://www.youtube.com/embed/$VideoId"
   $contentUrl = "https://www.youtube.com/watch?v=$VideoId"
   $next = $Html
+  $UploadDate = ConvertTo-IsoUploadDate -Value $UploadDate
 
-  $datePattern = '"uploadDate"\s*:\s*"\d{4}-\d{2}-\d{2}(?:T[^"]*)?"'
+  $datePattern = '"uploadDate"\s*:\s*"[^"]*"'
   if ($next -match $datePattern) {
     $next = [regex]::Replace($next, $datePattern, "`"uploadDate`": `"$UploadDate`"", 1)
   }
@@ -175,6 +197,7 @@ function New-VideoObjectJsonLd {
 
   $name = ConvertTo-JsonString -Value (Get-PageTitle -Html $Html)
   $description = ConvertTo-JsonString -Value (Get-PageDescription -Html $Html)
+  $UploadDate = ConvertTo-IsoUploadDate -Value $UploadDate
   $thumbnail = "https://img.youtube.com/vi/$VideoId/maxresdefault.jpg"
   $embedUrl = Get-EmbedUrl -Html $Html -VideoId $VideoId
   $contentUrl = "https://www.youtube.com/watch?v=$VideoId"
@@ -216,14 +239,15 @@ foreach ($file in ($files | Sort-Object FullName)) {
       $next = $next.Replace("</head>", "$videoJsonLd`n  </head>")
       $schemaIds += $id
     } else {
-      $existingDate = [regex]::Match($next, '"uploadDate"\s*:\s*"(\d{4}-\d{2}-\d{2})')
+      $existingDate = [regex]::Match($next, '"uploadDate"\s*:\s*"([^"]+)"')
       if ($existingDate.Success) {
-        $uploadDate = $existingDate.Groups[1].Value
+        $uploadDate = ConvertTo-IsoUploadDate -Value $existingDate.Groups[1].Value
       } else {
         $uploadDate = Get-YoutubeUploadDate -VideoId $id -FallbackDate $fallbackDate
       }
     }
 
+    $uploadDate = ConvertTo-IsoUploadDate -Value $uploadDate
     $next = Add-MissingVideoFields -Html $next -VideoId $id -UploadDate $uploadDate
 
     $required = @(
