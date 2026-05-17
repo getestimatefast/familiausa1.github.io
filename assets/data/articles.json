@@ -1,6 +1,33 @@
 {
     "articles":  [
                      {
+                         "title":  "5 hábitos comuns no Brasil que podem trazer problemas graves nos Estados Unidos",
+                         "description":  "Veja 5 hábitos comuns no Brasil que podem causar problemas graves nos EUA, com escola, trânsito, polícia, redes sociais e imigração.",
+                         "category":  "Adaptação cultural",
+                         "url":  "articles/5-habitos-comuns-no-brasil-problemas-eua.html",
+                         "date":  "2026-05-16",
+                         "modified":  "2026-05-16",
+                         "readTime":  "12 min de leitura"
+                     },
+                     {
+                         "title":  "Os maiores erros financeiros e culturais de imigrantes nos EUA",
+                         "description":  "Veja os maiores erros financeiros e culturais de imigrantes nos EUA: crédito, aluguel, golpes, consumo, trabalho e adaptação.",
+                         "category":  "Planejamento financeiro",
+                         "url":  "articles/erros-financeiros-culturais-imigrantes-eua.html",
+                         "date":  "2026-05-16",
+                         "modified":  "2026-05-16",
+                         "readTime":  "13 min de leitura"
+                     },
+                     {
+                         "title":  "Situações que podem causar deportação ou problemas legais nos EUA",
+                         "description":  "Entenda situações que podem causar deportação ou problemas legais nos EUA, como crimes, fraude, audiência perdida e imigração.",
+                         "category":  "Imigração e legalização",
+                         "url":  "articles/situacoes-causar-deportacao-problemas-legais-eua.html",
+                         "date":  "2026-05-16",
+                         "modified":  "2026-05-16",
+                         "readTime":  "13 min de leitura"
+                     },
+                     {
                          "title":  "Coisas comuns no Brasil que dão problema nos EUA",
                          "description":  "Veja hábitos, brincadeiras e costumes comuns no Brasil que podem gerar problemas legais nos EUA para brasileiros e imigrantes.",
                          "category":  "Adaptação cultural",
@@ -406,5 +433,5 @@
                          "readTime":  "8 min de leitura"
                      }
                  ],
-    "generatedAt":  "2026-05-13"
+    "generatedAt":  "2026-05-16"
 }
