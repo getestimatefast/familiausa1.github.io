@@ -104,6 +104,65 @@ h3 {
   padding-block: 44px 28px;
 }
 
+.hero-cinematic {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  margin-bottom: 18px;
+  background:
+    linear-gradient(90deg, rgba(7, 10, 18, 0.92) 0%, rgba(7, 10, 18, 0.78) 36%, rgba(7, 10, 18, 0.34) 67%, rgba(7, 10, 18, 0.18) 100%),
+    url("../images/articles/hero-realidade-brasileiros-eua.webp") right center / cover no-repeat;
+  color: #fff;
+}
+
+.hero-cinematic::after {
+  position: absolute;
+  inset: auto 0 0;
+  z-index: -1;
+  height: 42%;
+  background: linear-gradient(0deg, rgba(248, 250, 252, 1), rgba(248, 250, 252, 0));
+  content: "";
+  pointer-events: none;
+}
+
+.hero-cinematic .hero {
+  min-height: clamp(620px, 76vh, 820px);
+  align-items: center;
+  padding-block: 72px 86px;
+}
+
+.hero-copy {
+  max-width: 690px;
+}
+
+.hero-cinematic h1 {
+  color: #fff;
+  text-shadow: 0 18px 60px rgba(0, 0, 0, 0.55);
+}
+
+.hero-cinematic .hero p {
+  max-width: 640px;
+  color: rgba(255, 255, 255, 0.86);
+  font-size: clamp(1.08rem, 2vw, 1.28rem);
+}
+
+.hero-eyebrow {
+  background: rgba(194, 65, 12, 0.24);
+  color: #fed7aa;
+  box-shadow: inset 0 0 0 1px rgba(254, 215, 170, 0.28);
+}
+
+.hero-secondary {
+  border-color: rgba(255, 255, 255, 0.26);
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  backdrop-filter: blur(12px);
+}
+
+.hero-secondary:hover {
+  background: rgba(255, 255, 255, 0.18);
+}
+
 .eyebrow {
   width: fit-content;
   border-radius: 999px;
@@ -174,6 +233,30 @@ h1 {
 .hero-panel {
   display: grid;
   gap: 14px;
+}
+
+.hero-cinematic .hero-panel {
+  align-self: end;
+}
+
+.hero-cinematic .info-card {
+  border-color: rgba(255, 255, 255, 0.18);
+  background: rgba(9, 13, 24, 0.68);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.26);
+  backdrop-filter: blur(18px);
+}
+
+.hero-cinematic .info-card::after {
+  color: rgba(255, 255, 255, 0.42);
+}
+
+.hero-cinematic .stat-label,
+.hero-cinematic .stat-card p {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.hero-cinematic .stat-value {
+  color: #fff;
 }
 
 .featured-video-section {
@@ -256,6 +339,74 @@ h1 {
     #ffffff;
   box-shadow: var(--shadow-lift);
   padding: clamp(22px, 4vw, 34px);
+}
+
+.main-story-visual {
+  display: grid;
+  gap: 22px;
+  overflow: hidden;
+  border-radius: 28px;
+  padding: 16px;
+}
+
+.main-story-media,
+.post-thumb,
+.trending-media {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 22px;
+  background: #0f172a;
+}
+
+.main-story-media img,
+.post-thumb img,
+.trending-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition:
+    transform 280ms ease,
+    filter 280ms ease;
+}
+
+.main-story-media {
+  min-height: 260px;
+}
+
+.main-story-media img {
+  aspect-ratio: 16 / 10;
+}
+
+.main-story-copy {
+  padding: clamp(10px, 2vw, 20px);
+}
+
+.content-badge {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  z-index: 2;
+  border-radius: 999px;
+  padding: 7px 11px;
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 950;
+  letter-spacing: 0.02em;
+  box-shadow: 0 12px 34px rgba(0, 0, 0, 0.28);
+}
+
+.badge-alert {
+  background: #b91c1c;
+}
+
+.badge-hot {
+  background: #c2410c;
+}
+
+.badge-new {
+  background: #1d4ed8;
 }
 
 .story-kicker {
@@ -349,7 +500,7 @@ h1 {
 
 .section,
 .section-wide {
-  padding-block: 36px;
+  padding-block: 44px;
 }
 
 .section-header {
@@ -386,7 +537,7 @@ h1 {
   display: flex;
   min-height: 100%;
   flex-direction: column;
-  padding: 20px;
+  padding: 22px;
   transition:
     transform 160ms ease,
     box-shadow 160ms ease,
@@ -429,6 +580,22 @@ h1 {
   line-height: 1.32;
 }
 
+.post-thumb {
+  margin: -8px -8px 14px;
+  border-radius: 18px;
+}
+
+.post-thumb img {
+  aspect-ratio: 16 / 10.5;
+}
+
+.post-card:hover .post-thumb img,
+.main-story-visual:hover .main-story-media img,
+.trending-card:hover .trending-media img {
+  transform: scale(1.035);
+  filter: saturate(1.08) contrast(1.04);
+}
+
 .post-meta {
   display: flex;
   align-items: center;
@@ -448,8 +615,10 @@ h1 {
 }
 
 .highlight-band {
-  margin-block: 20px;
-  background: var(--brand);
+  margin-block: 28px;
+  background:
+    radial-gradient(circle at 78% 20%, rgba(194, 65, 12, 0.28), transparent 30%),
+    linear-gradient(135deg, #070a12 0%, #111827 48%, #1f2937 100%);
   color: #fff;
 }
 
@@ -480,6 +649,57 @@ h1 {
   display: grid;
   gap: 24px;
   padding-bottom: 50px;
+}
+
+.trending-section {
+  padding-block: 34px 14px;
+}
+
+.trending-card {
+  display: grid;
+  gap: 24px;
+  overflow: hidden;
+  border: 1px solid rgba(15, 23, 42, 0.1);
+  border-radius: 30px;
+  background:
+    linear-gradient(135deg, rgba(15, 23, 42, 0.04), transparent 42%),
+    #fff;
+  box-shadow: 0 28px 80px rgba(15, 23, 42, 0.12);
+  padding: 18px;
+}
+
+.trending-media {
+  min-height: 270px;
+}
+
+.trending-copy {
+  padding: clamp(8px, 2vw, 20px);
+}
+
+.trending-copy h2 {
+  margin-top: 14px;
+  color: var(--brand);
+  font-size: clamp(1.8rem, 5vw, 3rem);
+  font-weight: 950;
+  letter-spacing: -0.04em;
+  line-height: 1.02;
+}
+
+.trending-list {
+  display: grid;
+  gap: 10px;
+  margin: 20px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.trending-list li {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #f8fafc;
+  padding: 12px 14px;
+  color: #1f2937;
+  font-weight: 850;
 }
 
 .topics,
@@ -845,8 +1065,22 @@ h1 {
     padding-block: 72px 48px;
   }
 
+  .hero-cinematic .hero {
+    padding-block: 86px 100px;
+  }
+
+  .main-story-visual {
+    grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+    align-items: center;
+  }
+
   .highlight-inner {
     grid-template-columns: 1.2fr 0.8fr;
+    align-items: center;
+  }
+
+  .trending-card {
+    grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
     align-items: center;
   }
 
@@ -875,6 +1109,61 @@ h1 {
 }
 
 @media (max-width: 767px) {
+  .hero-cinematic {
+    background:
+      linear-gradient(180deg, rgba(7, 10, 18, 0.9) 0%, rgba(7, 10, 18, 0.75) 48%, rgba(7, 10, 18, 0.9) 100%),
+      url("../images/articles/hero-realidade-brasileiros-eua.webp") 58% center / cover no-repeat;
+  }
+
+  .hero-cinematic::after {
+    background:
+      radial-gradient(circle at 62% 18%, rgba(255, 255, 255, 0.08), transparent 28%),
+      linear-gradient(180deg, rgba(7, 10, 18, 0.38), rgba(7, 10, 18, 0.88));
+  }
+
+  .hero-cinematic .hero {
+    min-height: auto;
+    padding-block: 58px 72px;
+  }
+
+  .hero-cinematic h1 {
+    font-size: clamp(2.35rem, 13vw, 3.7rem);
+    line-height: 0.95;
+  }
+
+  .hero-cinematic .hero p {
+    font-size: 1.04rem;
+  }
+
+  .hero-cinematic .hero-panel {
+    background: rgba(7, 10, 18, 0.58);
+  }
+
+  .hero-cinematic .info-card {
+    background: rgba(9, 13, 24, 0.78);
+  }
+
+  .main-story-media,
+  .trending-media {
+    min-height: 220px;
+  }
+
+  .post-thumb {
+    min-height: 210px;
+  }
+
+  .trending-card {
+    padding: 14px;
+  }
+
+  .trending-copy {
+    padding: 10px 2px 4px;
+  }
+
+  .trending-list {
+    grid-template-columns: 1fr;
+  }
+
   .site-header {
     position: static;
   }
